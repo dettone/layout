@@ -1,0 +1,29 @@
+.newCollectionContainer{
+  display:flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 3rem;
+}
+
+.collectionText > h3{
+margin-bottom: 1rem;
+}
+.collectionImgMobile{
+  display: none;
+}
+
+  
+@media(max-width: 480px){
+  .collectionImgMobile{
+    display:flex;
+  }
+  .collectionImg{
+    display:none;
+  }
+  .newCollectionContainer{
+    flex-wrap: wrap;
+  }
+}

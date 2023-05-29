@@ -1,0 +1,77 @@
+.buyingReason{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.containerBuyingReasonItems{
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerBuyingReasonItems > div{
+  display: flex;
+  background: #EFEFEF;
+  border-radius: 4px;
+  padding: 1rem;
+  align-items: center;
+}
+
+.contentBuyingReason > p {
+  background: #EFEFEF;
+}
+.contentBuyingReason > h3{
+  background: #EFEFEF;
+}
+
+.containerBuyingReasonItems > div > p{
+  background: #EFEFEF;
+}
+
+.iconsBuyingReason{
+  background: #EFEFEF;
+  margin-right: 1rem;
+
+}
+
+.partnerBrands{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerImgBrands{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center; 
+}
+
+.moreFinding > h2{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top:2rem;
+  margin-bottom: 1rem;
+}
+
+@media(max-width:480px){
+  .containerBuyingReasonItems div{
+    width:298px;
+   
+  }
+.containerImgBrands{
+  flex-wrap: wrap;
+}
+  .containerBuyingReasonItems{
+    flex-wrap: wrap;
+  }
+}

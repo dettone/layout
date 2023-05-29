@@ -1,0 +1,151 @@
+.modal {
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+ 
+}
+.contentModal{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  align-items: center;
+  justify-content:center;
+  padding: 5rem;
+  position:relative;
+}
+
+.contentModal > img{
+  color: #231F20;
+}
+.contentModalInformation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 0.25rem;
+}
+
+.contentModalInformation  p:first-child {
+  color: #464B54;
+}
+
+.contentModalInformation  p:last-child {
+  color: #464B54;
+  font-weight: 700;
+}
+.containerModalInformation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 2rem;
+}
+
+.containerInputInformation{
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 1rem;
+}
+.containerInputInformation > input {
+height: 2.5rem;
+/* Branco */
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+border-radius: 10px;
+}
+
+.containerInputInformation > button{
+  width: 100%;
+  height: 2.4rem;
+background: #FAA500;
+border-radius: 10px;
+border: none;
+display:flex;
+justify-content: center;
+align-items:center;
+gap:0.5rem;
+color: #fff;
+}
+
+.closeButton{
+  position: fixed;
+  overflow: hidden;
+  top: 20%;
+  left: 75%;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  border:none;
+  color: white;
+  font-size: 15px;
+}
+.containerInputInformation > button > img{
+  background: #FAA500;
+  color: #FFF;
+}
+
+.contentModal > p{
+  font-size: 12px;
+color: #464B54;
+}
+.modal>img{
+width:100%;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal input {
+  display: block;
+  width: 100%;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+
+.modal button {
+  padding: 0.625rem 1.25rem;
+  margin-right: 0.625rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:480px){
+  .fitnessMan{
+    display: none;
+  }
+  .closeButton{
+    top: 31%;
+    left: 85%;
+  }
+  .modal{
+    margin-left:1rem;
+
+    width: 80%;
+  }
+  .contentModal{
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,110 @@
+.tan{
+  background: #DEAC71;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.coral{
+  background:#D37164;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.cornflowerBlue{
+  background:#6497D3;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.darkBlue{
+  background:#3C3B79;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.blackBean{
+  background:#1C1A19;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.alizarinCrimson{
+  background:#D84E4B;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.linen{
+  background:#CFC9B0;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+.isabelline{
+  background:#EAE9E5;
+  width:27px;
+  height:27px;
+  border-radius:4px;
+  box-sizing: border-box;
+  border: 1px solid #353535;
+}
+
+.containerColors{
+  display: flex;
+  gap:0.25rem;
+}
+
+.productPrice{
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.productName{
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.productDescription{
+  font-size: 0.75rem;
+  opacity: 0.5;
+  width:15.875rem;
+  height:3.375rem;
+}
+
+.containerProducts{
+  display:flex;
+   justify-content:center;
+  align-items: center; 
+  padding-left: 5rem;
+}
+
+.productAddToCardButton{
+  display:flex;
+  background: #FAA500;
+  width:15.875rem;
+  height:2.1875rem;
+
+  border-radius: 4px;
+  align-items:center;
+  border: none;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+
+}
