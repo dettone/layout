@@ -34,8 +34,9 @@ background: #FAA500;
 border-radius: 10px;
 border: none;
 color: #FFF;
+cursor: pointer;
 }
-@media (max-width: 480px) {
+@media (max-width: 660px) {
   .contentContainer{
     left: 4rem;
   }

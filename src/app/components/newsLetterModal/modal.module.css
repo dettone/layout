@@ -132,7 +132,7 @@ width:100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width:480px){
+@media (max-width:660px){
   .fitnessMan{
     display: none;
   }

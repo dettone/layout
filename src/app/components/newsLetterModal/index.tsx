@@ -40,12 +40,11 @@ const NewsletterModal: React.FC<NewsletterModalProps> = ({ onClose }) => {
 
   const handleSubscribeClick = () => {
     if (email.trim() !== "") {
-      setCookie("subscribed", "true", 30); // Set the 'subscribed' cookie for 30 days
+      setCookie("subscribed", "true", 30); //30 dias de cookie
       onClose();
-      console.log(`Subscribed with email: ${email}`);
+      console.log(`Email cadastrado: ${email}`);
     }
   };
-//   <button onClick={onClose}>Close</button>  
          
 
   return (
