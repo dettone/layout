@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './newCollection.module.css'
-
+import newCollection from '../../../../assets/images/header/newCollection.png';
+import newCollectionMobile from '../../../../assets/images/header/newCollection_mobile.png';
 
 export function NewCollection(){
   return (
@@ -12,10 +13,10 @@ export function NewCollection(){
         </p>
       </div>
       <div className={styles.collectionImg}>
-        <Image src={"/newCollection.png"} alt="Collection Image" width={1114} height={500}/>
+        <Image src={newCollection} alt="Collection Image" width={1114} height={500}/>
       </div>
       <div className={styles.collectionImgMobile}>
-        <Image src={"/newCollection_mobile.png"} alt="Collection Image" width={300} height={185}/>
+        <Image src={newCollectionMobile} alt="Collection Image" width={300} height={185}/>
       </div>
     </div>
 

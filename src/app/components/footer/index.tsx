@@ -8,6 +8,7 @@ import visaIcon from '../../../assets/images/footer/visa-icon.png'
 import masterCardIcon from '../../../assets/images/footer/mastercard-icon.png'
 import vtexIcon from '../../../assets/images/footer/vtex-icon.png'
 import maeztraIcon from '../../../assets/images/footer/maeztra-icon.png'
+import plusIcon from '../../../assets/images/header/svgs/plus-icon.svg'
 
 
 export default function Footer(){
@@ -20,20 +21,20 @@ export default function Footer(){
       <a>Prazo de Envio</a>
       <a>Trocas e Devoluções</a>
       <a>Promoções e Cupons</a>
-      <Image src={"/plus-icon.svg"} alt="Imagem de mais informações" className={styles.plusIcon} width={9} height={18}/>
+      <Image src={plusIcon} alt="Imagem de mais informações" className={styles.plusIcon} width={9} height={18}/>
       </div>
       <div className={styles.dataInformation}>
       <h4>Minha Conta</h4>
       <a>Minha Conta</a>
       <a>Meus Pedidos</a>
       <a>Cadastre-se</a>
-      <Image src={"/plus-icon.svg"} alt="Imagem de mais informações" className={styles.plusIcon} width={9} height={18}/>
+      <Image src={plusIcon} alt="Imagem de mais informações" className={styles.plusIcon} width={9} height={18}/>
       </div>
       <div className={styles.dataInformation}>
       <h4>Onde nos Encontrar</h4>
       <a>Lojas</a>
       <a>Endereço</a>
-      <Image src={"/plus-icon.svg"} alt="Imagem de mais informações" className={styles.plusIcon} width={9} height={18}/>
+      <Image src={plusIcon} alt="Imagem de mais informações" className={styles.plusIcon} width={9} height={18}/>
       </div>
       </div>
 

@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@types/node": "20.2.4",
@@ -17,6 +17,7 @@
     "@types/react-dom": "18.2.4",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
+    "gh-pages": "^5.0.0",
     "keen-slider": "^6.8.5",
     "next": "13.4.4",
     "react": "18.2.0",

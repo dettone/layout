@@ -1,5 +1,5 @@
 .sliderImg{
-  background-image: url("/SliderImage.png");
+  background-image: url("/layout/SliderImage.png");
   width: 120rem;
   height: 37.5rem;
   position:relative;
@@ -47,7 +47,7 @@ cursor: pointer;
     display:none;
   }
   .sliderImg{
-    background-image: url("/mobile_SliderImage.png");
+    background-image: url("/layout/mobile_SliderImage.png");
 
    width: 100vw;
    background-position: center center;

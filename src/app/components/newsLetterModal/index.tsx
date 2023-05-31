@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import styles from "./modal.module.css";
+import envelopeSimple from "../../../assets/images/header/svgs/envelope-simple.svg";
+import paper from "../../../assets/images/header/svgs/paper-plane.svg";
+import fitness from "../../../assets/images/header/fitness.png";
+
 import Image from "next/image";
 interface NewsletterModalProps {
   onClose: () => void;
@@ -54,10 +58,10 @@ const NewsletterModal: React.FC<NewsletterModalProps> = ({ onClose }) => {
           <button onClick={onClose} className={styles.closeButton}> FECHAR </button>
         <div className={styles.modal}>
           <div>
-            <Image src="/fitness.png" alt="Imagem Homem Esportivo" className={styles.fitnessMan} width={500} height={550.83} />
+            <Image src={fitness} alt="Imagem Homem Esportivo" className={styles.fitnessMan} width={500} height={550.83} />
           </div>
           <div className={styles.contentModal}>
-            <Image src="/envelope-simple.svg" alt="Imagem de ícone email" width={23.33} height={19.77} />
+            <Image src={envelopeSimple} alt="Imagem de ícone email" width={23.33} height={19.77} />
             <p>BEM VINDO Á MAEZTRA</p>
             <div className={styles.containerModalInformation}>
               <div className={styles.contentModalInformation}>
@@ -74,7 +78,7 @@ const NewsletterModal: React.FC<NewsletterModalProps> = ({ onClose }) => {
               />
               <button onClick={handleSubscribeClick}>
                 Enviar
-                <Image src="/paper-plane.svg" alt="Imagem de ícone carta" width={12} height={20}/>
+                <Image src={paper} alt="Imagem de ícone carta" width={12} height={20}/>
 
                 </button>
                                 

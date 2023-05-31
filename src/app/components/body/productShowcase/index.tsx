@@ -6,6 +6,8 @@ import styles from './product.module.css';
 import schema from './schema.json';
 import { useEffect, useState } from 'react';
 import { priceFormatter } from '@/utils/formatter';
+import fauxeSuedeproduct from '../../../../assets/images/header/fauxe-suede-product.png';
+import ruchedRoseProduct from '../../../../assets/images/header/ruched-rose-product.png';
 
 interface ProductProps {
   id: string;
@@ -43,7 +45,11 @@ export function ProductShowCase(){
         useProducts.map(products => {
           return (
             <div className={"keen-slider__slide"} key={products.id}>
-            <Image src={products.productImg} width={308} height={465} alt ={"logo Image"}/>
+              {(products.productImg === "/fauxe-suede-product.png") ?
+            <Image src={fauxeSuedeproduct} width={308} height={465} alt ={"logo Image"}/>
+            :
+            <Image src={ruchedRoseProduct} width={308} height={465} alt ={"logo Image"}/>
+          }
             <footer>
               <div className={styles.containerColors}>
                 {products.productColors.map(colors => {

@@ -5,6 +5,9 @@ import logoMaeztra from "../../../assets/images/header/logo-maeztra-novo.png";
 import iconUser from "../../../assets/images/header/svgs/icon-user.svg";
 import iconShoppingBag from "../../../assets/images/header/svgs/icon-shoppingbag.svg";
 import iconHeart from "../../../assets/images/header/svgs/icon-heart.svg";
+import dressIcon from "../../../assets/images/header/svgs/dress-icon.svg";
+import searchIcon from "../../../assets/images/header/svgs/searchIcon.svg";
+
 export default function Header() {
   return (
     <div className={styles.headerContainer}>
@@ -41,7 +44,7 @@ export default function Header() {
         <div className={styles.profileSearch}>
         <div className={styles.mobileSearch}>
       <Image
-        src={"/searchIcon.svg"}
+        src={searchIcon}
         width={16}
         height={16}
         className={styles.searchIcon}
@@ -75,7 +78,7 @@ export default function Header() {
       <div>
         <nav className={styles.navbarNavigate}>
           <div className={styles.newsContainer}>
-          <Image src="/dress-icon.svg" alt="Imagem de vestido" width={12.5} height={15} />
+          <Image src={dressIcon} alt="Imagem de vestido" width={12.5} height={15} />
           <a className={styles.news}>Novidades</a>
           </div>
           <a>Vestidos</a>
