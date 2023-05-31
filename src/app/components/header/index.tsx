@@ -16,7 +16,7 @@ export default function Header() {
         Acompanhe as melhores promoções disponíveis aqui na Maeztra.
       </div>
       <div className={styles.headerSearch}>
-        <Image src={"/icon-menu.svg"} width={24} height={24}  alt="Icone de Menu" className={styles.menuIcon}/>
+        <Image src={"/layout/icon-menu.svg"} width={24} height={24}  alt="Icone de Menu" className={styles.menuIcon}/>
         <Image
           src={logoMaeztra.src}
           width={147}

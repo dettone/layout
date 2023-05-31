@@ -80,7 +80,7 @@ color: #fff;
 .closeButton{
   position: fixed;
   overflow: hidden;
-  top: 20%;
+  top: 15%;
   left: 75%;
   z-index: 999999999;
   transform: translate(-50%, -50%);
@@ -91,6 +91,7 @@ color: #fff;
   border:none;
   color: white;
   font-size: 15px;
+  cursor: pointer;
 }
 .containerInputInformation > button > img{
   background: #FAA500;
