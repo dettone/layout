@@ -7,7 +7,7 @@ import iconShoppingBag from "../../../assets/images/header/svgs/icon-shoppingbag
 import iconHeart from "../../../assets/images/header/svgs/icon-heart.svg";
 import dressIcon from "../../../assets/images/header/svgs/dress-icon.svg";
 import searchIcon from "../../../assets/images/header/svgs/searchIcon.svg";
-
+import iconMenu from "../../../assets/images/header/svgs/icon-menu.svg";
 export default function Header() {
   return (
     <div className={styles.headerContainer}>
@@ -16,7 +16,7 @@ export default function Header() {
         Acompanhe as melhores promoções disponíveis aqui na Maeztra.
       </div>
       <div className={styles.headerSearch}>
-        <Image src={"/layout/icon-menu.svg"} width={24} height={24}  alt="Icone de Menu" className={styles.menuIcon}/>
+        <Image src={iconMenu} width={24} height={24}  alt="Icone de Menu" className={styles.menuIcon}/>
         <Image
           src={logoMaeztra.src}
           width={147}

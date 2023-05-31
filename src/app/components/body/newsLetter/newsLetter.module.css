@@ -52,5 +52,6 @@ cursor: pointer;
   .containerSendingNewsLetter > button{
     width: 79px;
     height: 26px;
+    cursor: pointer;
   }
 }
